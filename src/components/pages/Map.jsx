@@ -87,6 +87,23 @@ export const Map = () => {
             <div className="container">
             Greenspaces on UAH Campus
             </div>
+            <div className="places">
+            <p>Lounge</p>
+            <p>Scenic</p>
+            <p>Tables</p>
+            <p>Lawn</p>
+            <p>Benches</p>
+            <p>Slab</p>
+            <div className="legend">
+            <p>LEGEND</p>
+            </div>
+            <div className="lounge"></div>
+            <div className="scenic"></div>
+            <div className="tables"></div>
+            <div className="lawn"></div>
+            <div className="benches"></div>
+            <div className="slab"></div>
+            </div>     
             <MapWrapper />
             <Dropdown />
         </div>
