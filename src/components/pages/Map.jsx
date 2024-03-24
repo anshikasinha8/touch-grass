@@ -1,25 +1,18 @@
+import "../../App.css";
 import React from "react";
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import Dropdown from '../Dropdown';
+import { MyMap } from "../MyMap";
+import { Dropdown } from "../Dropdown";
+
 
 export const Map = () => {
     return(
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'right', height: '100vh' }}>
-    <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={true}>
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      <Marker position={[51.505, -0.09]}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker>
-    </MapContainer>
-
-    <Dropdown></Dropdown>
+        <div>
+            <div className="container">
+            Green Spaces on Campus
+            </div>
+            <Dropdown/>
+            <MyMap/>
         </div>
-        
     )
 };
 
