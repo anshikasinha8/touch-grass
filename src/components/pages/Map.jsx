@@ -34,19 +34,20 @@ const MapWrapper = () => {
         });
     }, []);
 
+
     const popupContent = {
-        textAlign: "center",
-        height: "350px",
-        marginTop: "30px"
+        height: "250px",
+        marginTop: "20px"
     };
     const popupHead = {
+        textAlign: "center",
         fontWeight: "bold",
-        fontSize: "22px"
+        fontSize: "25px",
     };
     
     const popupText = {
         fontSize: "15px",
-        marginBottom: "20px"
+        marginBottom: "20px",
     };
 
     return(
@@ -93,7 +94,7 @@ export const Map = () => {
     return(
         <div>
             <div className="container">
-            Green Spaces on Campus
+            Greenspaces on UAH Campus
             </div>
             <MapWrapper />
             <Dropdown />
