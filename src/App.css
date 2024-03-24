@@ -96,7 +96,7 @@
   pointer-events: none;
   position:absolute;
   left:225px; 
-  top:125px;
+  top:145px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -110,7 +110,7 @@
   pointer-events: none;
   position:absolute;
   right:225px;
-  top:125px;
+  top:145px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
