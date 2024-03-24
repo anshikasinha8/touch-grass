@@ -1,25 +1,90 @@
-.leaflet-container{
 
-  width: 70vw;
-  height: 60vh;
-  position: absolute;
-  top: 200px; left: 430px;
-  display: flex;
-}
+  .leaflet-container{
+    width: 70vw;
+    height: 35vw;
+    position: absolute;
+    top: 240px;
+    left: 400px;
+    display: flex;
+    border: solid;
+    border-width: 20px;
+    border-color: #4a6741;
+  }
+  
+  .row{
+    position: absolute;
+    top: 240px; left: 85px;
+    width: 20vw;
+    font-size: 20px;
+  
+  }
+  
+  .container{
+    font-family: "Times New Roman", Georgia, serif;
+    font-style: normal;
+    font-size: 3em;
+    color:#5c3d3d;
+    letter-spacing: .2rem;
+    border-style: solid;
+    margin-right: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 9px;
+    border-width: 3px;
+    border-color: #4a6741;
+    background-color: #EBEBE8;
+    letter-spacing: .2rem;
+  }
+  
+  .row{
+    position: absolute;
+    top: 240px; left: 85px;
+    width: 20vw;
+    font-size: 20px;
+  
+  }
+  
+  .container{
+    font-family: "Times New Roman", Georgia, serif;
+    font-style: normal;
+    font-size: 3em;
+    color:#5c3d3d;
+    letter-spacing: .2rem;
+    border-style: solid;
+    margin-right: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 9px;
+    border-width: 3px;
+    border-color: #4a6741;
+    background-color: #EBEBE8;
+    letter-spacing: .2rem;
+  }
+
 
 .row{
   position: absolute;
-  top: 200px; left: 50px;
+  top: 240px; left: 85px;
+  width: 20vw;
+  font-size: 20px;
+
 }
 
 .container{
-  text-align: center;
-  font-size: 3.5em;
-  font-family:'Times New Roman', Times, serif;
-  position:relative;
+  font-family: "Times New Roman", Georgia, serif;
+  font-style: normal;
+  font-size: 3em;
   color:#5c3d3d;
+  letter-spacing: .2rem;
+  border-style: solid;
+  margin-right: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 9px;
+  border-width: 3px;
   border-color: #4a6741;
   background-color: #EBEBE8;
+  letter-spacing: .2rem;
 }
 
 .App {
@@ -106,7 +171,8 @@ body{
   padding-right:100px;
   opacity: 0;
   animation: fadeIn 4s forwards;
-  padding-bottom: 20px;
+  padding-bottom: 70px;
+  padding-top:20px;
 }
 
 @keyframes fadeIn {
@@ -138,7 +204,7 @@ body{
   letter-spacing: .2rem;
   background-color: #EBEBE8;
   padding-top: 1px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
  
 }
 
@@ -147,7 +213,7 @@ body{
   font-size: .45em;
   padding-left:200px;
   padding-right:200px;
-  padding-top: 0px;
+  padding-top: 10px;
   color: #5c3d3d;
   letter-spacing: .1rem;
   position: relative;
@@ -245,19 +311,21 @@ body{
 }
 
 .cred{
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 5px;
   color:#2b2e29;
   font-family: "Times New Roman", Georgia, serif;
   font-size: 1.5em;
   justify-content: center;
   border-bottom: 1.5px solid #2b2e29;
-  width: 10%;
+  width: 14%;
   padding-right: 60px;
   margin-left: auto;
   margin-right: auto; 
   letter-spacing: .2rem;
-  margin-top: 70px
+  margin-top: 70px;
+  position: relative;
+  right:30px;
   
 }
 .credits{
@@ -274,7 +342,11 @@ body{
 
 .dev{
   font-family: "Times New Roman", Georgia, serif;
-  padding-top: 90px;
+  padding-top: 50px;
+}
+
+.request-popup{
+  font-family: "Times New Roman", Georgia, serif;
 }
 
 .request-popup{

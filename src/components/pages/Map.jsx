@@ -31,6 +31,7 @@ const MapWrapper = () => {
         });
     }, []);
 
+
     const popupContent = {
         height: "250px",
         marginTop: "20px"
@@ -45,7 +46,7 @@ const MapWrapper = () => {
         fontSize: "15px",
         marginBottom: "20px",
     };
-
+*/
 
     return(
         <MapContainer ref={mapRef} center={center} zoom={15} scrollWheelZoom={true} >
@@ -90,7 +91,7 @@ export const Map = () => {
     return(
         <div>
             <div className="container">
-            Green Spaces on Campus
+            Greenspaces on UAH Campus
             </div>
             <MapWrapper />
             <Dropdown />
