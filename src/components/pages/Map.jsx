@@ -114,7 +114,6 @@ export const Map = () => {
             <div className="slab"></div>
             </div>     
             <MapWrapper />
-            <Dropdown />
             
         </div>
     )

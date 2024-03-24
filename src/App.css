@@ -363,11 +363,11 @@ body{
 .places{
   position:absolute;
   left:7rem;
-  top: 30rem;
+  top: 20rem;
   background: #EBEBE8;
   padding-bottom: 0.5rem;
   padding-left: 7rem;
-  padding-right: 2rem;
+  padding-right: 2.5rem;
   padding-top: 6rem;
   border:solid;
   border-color: #2b2e29;
@@ -416,13 +416,10 @@ body{
   bottom:4.5rem;
 }
 .slab{
-  background-color: rgb(100, 64, 64);
+  background-color: rgb(108, 57, 57);
   padding-bottom: 0.3rem;
   padding-left: 4.5rem;
   position:absolute;
   left: 1.4rem;
   bottom:2.0rem;
 }
-/*type==="lounge" ? "black" : type==="scenic" ? "blue" : type==="tables"
- ? "red" : type==="lawn" ? "green" : type==="benches" ?
-  "purple" : type==="slab" ? "yellow" : "brown"*/
