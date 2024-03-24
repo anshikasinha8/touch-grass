@@ -1,23 +1,25 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Select from 'react-select';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Dropdown() {
-    const[isOpen, setIsOpen] = useState(false);
-  
-    const toggleDropdown = () => {
-      setIsOpen(!isOpen);
-    };
-     return (
-      <div className="dropdown" style={{ display: 'flex', alignItems: 'center', justifyContent: 'left', height: '200vh' }}>
-        <button onClick={toggleDropdown}>Open Dropdown</button>
-        {isOpen && (
-          <div className="dropdown-content">
-            <a href="#">Hello</a>
-            <a href="#">Hi</a>
-            <a href="#">Touch Grass</a>
+
+const actions = [
+  { label: "Option 1", value: 1 },
+  { label: "Another Option", value: 2 },
+  { label: "A final option", value: 3 }
+];
+
+export const Dropdown = () => {
+  return (
+      <div >
+        <div className="row">
+          <div ></div>
+          <div>
+            <Select options={actions} />
           </div>
-        )}
+          <div></div>
         </div>
-      );
-    }
-
-    export default Dropdown; 
+      </div>
+  
+  )
+}

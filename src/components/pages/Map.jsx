@@ -1,6 +1,7 @@
+import "../../App.css";
 import React, {useState, useRef, useEffect} from "react";
 import { MapContainer, TileLayer, Marker, Popup, Polygon } from 'react-leaflet';
-import Dropdown from '../Dropdown';
+import {Dropdown} from '../Dropdown';
 import { data } from "../coordinates";
 
 const MapWrapper = () => {
@@ -29,21 +30,22 @@ const MapWrapper = () => {
         enableHighAccuracy: true,
         });
     }, []);
-
+/*
     const popupContent = {
         textAlign: "center",
-        height: "350px",
-        marginTop: "30px"
+        height: "250px",
+        marginTop: "20px"
     };
     const popupHead = {
         fontWeight: "bold",
-        fontSize: "22px"
+        fontSize: "25px",
     };
     
     const popupText = {
         fontSize: "15px",
         marginBottom: "20px"
     };
+*/
 
     return(
         <MapContainer ref={mapRef} center={center} zoom={15} scrollWheelZoom={true} >
@@ -53,7 +55,7 @@ const MapWrapper = () => {
             />
 
             {data.map(({id, points, type, image, description}, index) => (
-                <Polygon color="green" positions={points}>
+                <Polygon color={type==="hammock" ? "black" : type==="scenic" ? "blue" : type==="tables" ? "red" : type==="lawn" ? "green" : type==="benches" ? "purple" : "yellow"} positions={points}>
                     <Popup className="request-popup">
                         <div style={popupContent}>
                             <div className="m-2" style={popupHead}>
@@ -81,15 +83,14 @@ const MapWrapper = () => {
 }
 
 export const Map = () => {
-    
-
     return(
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'right', height: '100vh' }}>
-            
-        <MapWrapper />
-        <Dropdown />
+        <div>
+            <div className="container">
+            Greenspaces on UAH Campus
+            </div>
+            <MapWrapper />
+            <Dropdown />
         </div>
-        
     )
 };
 
