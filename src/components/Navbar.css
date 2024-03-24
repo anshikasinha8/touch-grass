@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    background-color: #76b296;
+    justify-content: right;
+    background-color: #4a6741;
     padding-left: 1rem;
     padding-right: 1rem;
+    
 }
 
 .title {
@@ -15,4 +16,6 @@
     text-decoration: none;
     align-items: center;
     color: white;
+    font-family: "Times New Roman", Georgia, serif;
+    
 }
