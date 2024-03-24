@@ -30,22 +30,22 @@ const MapWrapper = () => {
         enableHighAccuracy: true,
         });
     }, []);
-
+/*
     const popupContent = {
         textAlign: "center",
-        height: "350px",
-        marginTop: "30px"
+        height: "250px",
+        marginTop: "20px"
     };
     const popupHead = {
         fontWeight: "bold",
-        fontSize: "22px"
+        fontSize: "25px",
     };
     
     const popupText = {
         fontSize: "15px",
         marginBottom: "20px"
     };
- 
+*/
 
     return(
         <MapContainer ref={mapRef} center={center} zoom={15} scrollWheelZoom={true} >
