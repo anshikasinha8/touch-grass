@@ -86,7 +86,7 @@ export const Map = () => {
     return(
         <div>
             <div className="container">
-            Green Spaces on Campus
+            Greenspaces on UAH Campus
             </div>
             <MapWrapper />
             <Dropdown />
