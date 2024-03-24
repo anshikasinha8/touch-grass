@@ -4,6 +4,7 @@ import { Navbar } from "./components/Navbar";
 import { Home } from "./components/pages/Home";
 import { Map } from "./components/pages/Map";
 
+
 function App() {
   return (
     <div className="App">
