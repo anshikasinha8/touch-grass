@@ -1,6 +1,6 @@
 export const data = [
     {
-        id: "sstTreePoly",
+        id: "SST Hammock Stand",
         points: [
         [34.725967, -86.640218],
         [34.726026, -86.639985],
@@ -12,7 +12,7 @@ export const data = [
         description: "Hammock in front of SST"
     },
     {
-        id: "greenHouse",
+        id: "SST GreenHouse",
         points: [
         [34.725875, -86.641028],
         [34.725983, -86.640863],
@@ -24,7 +24,7 @@ export const data = [
         description: "Greenhouse on SST roof"
     },
     {
-        id: "sstBalcony",
+        id: "SST 3rd Floor Balcony",
         points: [
         [34.725958, -86.641453],
         [34.725920, -86.641658],
@@ -38,7 +38,7 @@ export const data = [
         description:"Balcony peeking out from SST"
     },
     {  
-        id: "mortonCourt", 
+        id: "Morton Courtyard", 
         points: [
         [34.732583, -86.641278],
         [34.732407, -86.640949],
@@ -52,7 +52,7 @@ export const data = [
         description: "Courtyard between Morton Hall and the CTC"
     },
     { 
-        id: "mortonBench",
+        id: "Morton Benches",
         points: [
         [34.733048, -86.641690],
         [34.733158, -86.641528],
@@ -66,7 +66,7 @@ export const data = [
     },
 
     {
-        id: "cuLawn",
+        id: "Charger Union Tables",
         points: [
         [34.727331, -86.640132],
         [34.727500, -86.640235],
@@ -82,7 +82,7 @@ export const data = [
         description:"Tables near the Altenkirch Lawn"
     },
     {    
-        id: "salmonForest",
+        id: "Library Hammock Stand",
         points: [
         [34.728374, -86.640442],
         [34.728374, -86.640158],
@@ -97,7 +97,7 @@ export const data = [
         description:"Hammock between the trees in front of the Salmon Library"
     }, 
     {
-        id: "salmonSlab",
+        id: "Salmon Library Slab",
         points: [
         [34.728808, -86.640068],
         [34.728660, -86.639733],
@@ -110,7 +110,7 @@ export const data = [
         description:"Slab between the trees and the Salmon Library"
     },
     {
-    id: "nursingBench",
+    id: "Nursing Benches",
     points: [
         [34.729048, -86.639358],
         [34.729048, -86.639120],
@@ -126,7 +126,7 @@ export const data = [
         description:"Benches along the path towards the Nursing Building"
     },
     {
-        id: "salmonBench1",
+        id: "Salmon Bench 1",
         points: [
         [34.729460, -86.639705],
         [34.729454, -86.639899],
@@ -138,7 +138,7 @@ export const data = [
         description:"Bench right beside the Salmon Library"
     },
     {
-        id: "salmonBench2",
+        id: "Salmon Bench 2",
         points: [
         [34.729756, -86.639725],
         [34.729762, -86.639950],
@@ -151,7 +151,7 @@ export const data = [
         description:"Bench facing the Salmon Library"
     },
     {
-        id: "artStructures",
+        id: "Art Structures",
         points: [
         [34.730984, -86.639831],
         [34.731298, -86.640305],
@@ -164,7 +164,7 @@ export const data = [
     },
 
     {
-        id: "bigTree",
+        id: "Big Tree",
         points: [
         [34.731286, -86.640322],
         [34.730913, -86.639909],
@@ -177,7 +177,7 @@ export const data = [
         description:"Benches surrounding the big tree in front of CTC"
     },
     {
-        id: "franzBench",
+        id: "Franz Bench",
         points: [
         [34.733385, -86.641010],
         [34.733067, -86.640680],
@@ -189,7 +189,7 @@ export const data = [
         description:"Benches in front of Franz"
     },
     {
-        id: "mortonSlab",
+        id: "Morton Slab",
         points: [
         [34.732327, -86.641605],
         [34.732214, -86.641612],
@@ -205,7 +205,7 @@ export const data = [
     },
   
     {
-        id: "oldPlayground",
+        id: "Union Grove Gallery Gazebo",
         points: [
         [34.731756, -86.642227],
         [34.731744, -86.641965],
@@ -218,7 +218,7 @@ export const data = [
         description:"Little gazebo with tables and seating"
     }  ,
     {
-        id: "ctcTables",
+        id: "CTC/Union Grove Tables",
         points: [
         [34.731350, -86.641956],
         [34.731527, -86.641655],
@@ -234,7 +234,7 @@ export const data = [
     },
 
     {
-        id: "otherCtcTables",
+        id: "CTC Entrence Tables",
         points: [
         [34.730850, -86.640974],
         [34.730904, -86.640805],
@@ -248,7 +248,7 @@ export const data = [
     },
   
     {
-        id: "tableCourtyard",
+        id: "CTC/Library Courtyard",
         points: [
         [34.730748, -86.640573],
         [34.730778, -86.640342],
@@ -262,7 +262,7 @@ export const data = [
     },
 
     {
-        id: "centralSand",
+        id: "Central Sand Vollyball Area",
         points: [
         [34.730256, -86.641688],
         [34.730263, -86.641300],
@@ -275,7 +275,7 @@ export const data = [
     },
 
     {
-        id: "i2cBench",
+        id: "I2C Bench",
         points: [
         [34.728710, -86.641824],
         [34.728703, -86.642082],
@@ -288,7 +288,7 @@ export const data = [
     },
 
     {
-        id: "babLit",
+        id: "BAB Lawn Chairs",
         points: [
         [34.728557, -86.641828],
         [34.728505, -86.642050],
@@ -301,7 +301,7 @@ export const data = [
     },
 
     {
-        id: "cguSlabs",
+        id: "Charger Union Slabs",
         points: [
         [34.727284, -86.639439],
         [34.727531, -86.639502],
@@ -314,7 +314,7 @@ export const data = [
     },
 
     {
-        id: "nearCrackerBarrel",
+        id: "Charger Union Blue Chairs",
         points: [
         [34.726796, -86.639665],
         [34.726676, -86.639878],
@@ -327,7 +327,7 @@ export const data = [
     },
   
     {
-        id: "memoryCourtyard",
+        id: "Memorium Courtyard",
         points: [
         [34.725546, -86.639769],
         [34.725758, -86.639977],
@@ -339,7 +339,7 @@ export const data = [
     },
  
     {
-        id: "swing1",
+        id: "Food Court Swing 1",
         points: [
         [34.725519, -86.639035],
         [34.725410, -86.638861],
@@ -351,7 +351,7 @@ export const data = [
     },
 
     {
-        id: "swing2",
+        id: "Food Court Swing 2",
         points: [
         [34.725503, -86.638590],
         [34.725484, -86.638464],
@@ -364,7 +364,7 @@ export const data = [
     },
 
     {
-        id: "cvYard",
+        id: "Charger Vilage Lawn",
         points: [
         [34.725234, -86.638509],
         [34.725239, -86.638990],
@@ -377,7 +377,7 @@ export const data = [
     },
   
     {
-        id: "hammock1",
+        id: "Charger Village Hammock",
         points: [
         [34.725322, -86.638419],
         [34.725241, -86.638425],
@@ -390,7 +390,7 @@ export const data = [
     },
 
     {
-        id: "bigCourtyard",
+        id: "CV/SSB Courtyard",
         points: [
         [34.724754, -86.640004],
         [34.724793, -86.639574],
@@ -403,7 +403,7 @@ export const data = [
     },
   
     {
-        ig: "egrCourtyard",
+        id: "Engineering Courtyard",
         points: [
         [34.723350, -86.640031],
         [34.723537, -86.639809],
@@ -415,7 +415,7 @@ export const data = [
     },
 
     {
-        id: "lakeSlab",
+        id: "Lake Slabs",
         points: [
         [34.722477, -86.642788],
         [34.722586, -86.642287],
@@ -428,7 +428,7 @@ export const data = [
     },
 
     {
-        id: "shelbySlabs",
+        id: "SST Slabs",
         points: [
         [34.725281, -86.641545],
         [34.725441, -86.641728],
