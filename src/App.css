@@ -37,14 +37,31 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.App-logo1 {
+  height: 16vmin;
   pointer-events: none;
+  position:absolute;
+  left:225px; 
+  top:125px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App-logo1 {
+      animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-logo2 {
+  height: 16vmin;
+  pointer-events: none;
+  position:absolute;
+  right:225px;
+  top:125px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo2 {
+      animation: App-logo-spin infinite 20s linear;
   }
 }
 

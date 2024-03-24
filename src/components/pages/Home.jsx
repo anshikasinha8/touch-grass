@@ -1,11 +1,18 @@
 import React from "react";
 import '../../App.css';
+import logo from './eco-ecology-grass-svgrepo-com.svg';
+import logo2 from './eco-ecology-grass-svgrepo-com copy.svg';
+
 
 export const Home = () => {
     return (
         <div>
             <div className="websiteTitle">
-                TOUCH GRASS
+                <img src={logo} className="App-logo1" alt="logo1" />
+                <div>
+                    TOUCH GRASS
+                </div>
+                <img src={logo2} className="App-logo2" alt="logo2" />
             </div>
             <div className="websiteSubtitle">
                 ABOUT
