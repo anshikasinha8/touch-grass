@@ -44,6 +44,7 @@ const MapWrapper = () => {
         fontSize: "15px",
         marginBottom: "20px"
     };
+ 
 
     return(
         <MapContainer ref={mapRef} center={center} zoom={15} scrollWheelZoom={true} >
@@ -53,7 +54,7 @@ const MapWrapper = () => {
             />
 
             {data.map(({id, points, type, image, description}, index) => (
-                <Polygon color="green" positions={points}>
+                <Polygon color={type==="hammock" ? "black" : type==="scenic" ? "blue" : type==="tables" ? "red" : type==="lawn" ? "green" : type==="benches" ? "purple" : "yellow"} positions={points}>
                     <Popup className="request-popup">
                         <div style={popupContent}>
                             <div className="m-2" style={popupHead}>
@@ -82,7 +83,6 @@ const MapWrapper = () => {
 
 export const Map = () => {
     
-
     return(
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'right', height: '100vh' }}>
             
