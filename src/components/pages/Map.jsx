@@ -37,7 +37,7 @@ const MapWrapper = () => {
 
     const popupContent = {
         height: "250px",
-        marginTop: "20px"
+        textAlign: "center",
     };
     const popupHead = {
         textAlign: "center",
@@ -47,6 +47,7 @@ const MapWrapper = () => {
     
     const popupText = {
         fontSize: "15px",
+        textAlign: "center",
         marginBottom: "20px",
     };
 
