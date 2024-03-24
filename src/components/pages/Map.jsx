@@ -4,8 +4,11 @@ import { MapContainer, TileLayer, Marker, Popup, Polygon } from 'react-leaflet';
 import {Dropdown} from '../Dropdown';
 import { data } from "../coordinates";
 
+
 const MapWrapper = () => {
     const center =[34.727, -86.639]
+
+    const types = ["lounge", "scenic", "tables", "lawn", "benches", "slab"];
 
     const mapRef = useRef();
     const [state, setState] = useState({
@@ -56,7 +59,7 @@ const MapWrapper = () => {
             />
 
             {data.map(({id, points, type, image, description}, index) => (
-                <Polygon color={type==="hammock" ? "black" : type==="scenic" ? "blue" : type==="tables" ? "red" : type==="lawn" ? "green" : type==="benches" ? "purple" : "yellow"} positions={points}>
+                <Polygon color={type==="lounge" ? "black" : type==="scenic" ? "blue" : type==="tables" ? "red" : type==="lawn" ? "green" : type==="benches" ? "purple" : type==="slab" ? "yellow" : "brown"} positions={points}>
                     <Popup className="request-popup">
                         <div style={popupContent}>
                             <div className="m-2" style={popupHead}>
@@ -88,13 +91,31 @@ const MapWrapper = () => {
 }
 
 export const Map = () => {
+    
     return(
         <div>
             <div className="container">
             Greenspaces on UAH Campus
             </div>
+            <div className="places">
+            <p>Lounge</p>
+            <p>Scenic</p>
+            <p>Tables</p>
+            <p>Lawn</p>
+            <p>Benches</p>
+            <p>Slab</p>
+            <div className="legend">
+            <p>LEGEND</p>
+            </div>
+            <div className="lounge"></div>
+            <div className="scenic"></div>
+            <div className="tables"></div>
+            <div className="lawn"></div>
+            <div className="benches"></div>
+            <div className="slab"></div>
+            </div>     
             <MapWrapper />
-            <Dropdown />
+            
         </div>
     )
 };

@@ -91,14 +91,31 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.App-logo1 {
+  height: 16vmin;
   pointer-events: none;
+  position:absolute;
+  left:225px; 
+  top:125px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App-logo1 {
+      animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-logo2 {
+  height: 16vmin;
+  pointer-events: none;
+  position:absolute;
+  right:225px;
+  top:125px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo2 {
+      animation: App-logo-spin infinite 20s linear;
   }
 }
 
@@ -344,10 +361,83 @@ body{
   padding-bottom: 20px;
 }
 
-.request-popup{
+.legend{
   font-family: "Times New Roman", Georgia, serif;
+  font-size: 20px;
+  letter-spacing: .1rem;
+  color:#2b2e29;
+  position:absolute;
+  left: .5rem;
+  bottom: 17rem;
+  padding-left: 2.9rem;
+  padding-right: 3rem;
+  padding-top: .8rem;
+  border:solid;
+  border-color: #5c3d3d;
 }
 
+.places{
+  position:absolute;
+  left:7rem;
+  top: 20rem;
+  background: #EBEBE8;
+  padding-bottom: 0.5rem;
+  padding-left: 7rem;
+  padding-right: 2.5rem;
+  padding-top: 6rem;
+  border:solid;
+  border-color: #2b2e29;
+  border-width: 3px;
+  text-align:left;
+}
+.lounge{
+  background-color: black;
+  padding-bottom: 0.3rem;
+  padding-left: 4.5rem;
+  position:absolute;
+  left: 1.4rem;
+  bottom:14.5rem;
+}
+
+.scenic{
+  background-color: blue;
+  padding-bottom: 0.3rem;
+  padding-left: 4.5rem;
+  position:absolute;
+  left: 1.4rem;
+  bottom:12rem;
+}
+.tables{
+  background-color: red;
+  padding-bottom: 0.3rem;
+  padding-left: 4.5rem;
+  position:absolute;
+  left: 1.4rem;
+  bottom:9.5rem;
+}
+.lawn{
+  background-color: green;
+  padding-bottom: 0.3rem;
+  padding-left: 4.5rem;
+  position:absolute;
+  left: 1.4rem;
+  bottom:7rem;
+}
+.benches{
+  background-color: purple;
+  padding-bottom: 0.3rem;
+  padding-left: 4.5rem;
+  position:absolute;
+  left: 1.4rem;
+  bottom:4.5rem;
+}
+.slab{
+  background-color: rgb(108, 57, 57);
+  padding-bottom: 0.3rem;
+  padding-left: 4.5rem;
+  position:absolute;
+  left: 1.4rem;
+  bottom:2.0rem;
 .dev{
   font-family: "Times New Roman", Georgia, serif;
 }
