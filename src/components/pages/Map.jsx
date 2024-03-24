@@ -30,7 +30,7 @@ const MapWrapper = () => {
         enableHighAccuracy: true,
         });
     }, []);
-/*
+
     const popupContent = {
         textAlign: "center",
         height: "250px",
@@ -45,7 +45,6 @@ const MapWrapper = () => {
         fontSize: "15px",
         marginBottom: "20px"
     };
-*/
 
     return(
         <MapContainer ref={mapRef} center={center} zoom={15} scrollWheelZoom={true} >
