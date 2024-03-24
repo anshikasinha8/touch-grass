@@ -52,15 +52,6 @@ const MapWrapper = () => {
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
 
-            {/* {data.map(({lat, lng, title}, index) => (
-                <Marker 
-                key={index}
-                position={{lat, lng}}
-                >
-                    <Popup>{title}</Popup>
-                </Marker>
-            ))} */}
-
             {data.map(({id, points, type, image, description}, index) => (
                 <Polygon color="green" positions={points}>
                     <Popup className="request-popup">
