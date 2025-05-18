@@ -5,7 +5,7 @@ that guides you to locations where you can enjoy nature.
 ## Getting Started
 ### Prerequisites
 
-* Node.js - Install Node.js with npm at [https://nodejs.org/en/download](https://nodejs.org/en/download)
+* [Node.js](https://nodejs.org/en/download) - Install Node.js with npm
 
 ### Setup
 1. Clone the repo
